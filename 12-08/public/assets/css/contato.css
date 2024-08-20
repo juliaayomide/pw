@@ -1,0 +1,261 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@200;300;700&display=swap');
+
+
+.header {
+    
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    padding: 20px 10px;
+    height: 85px;
+  }
+.devs{
+    align-items: center;
+    text-align: center;
+    font-size: 80px;
+    font-family: "Bebas Neue", sans-serif;
+    margin-top: 50px;
+}
+.logo{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+
+  .header a {
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+ 
+  .header a.logo {
+    font-size: 45px;
+    font-weight: bold;
+  }
+  
+
+  .header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+ 
+
+ 
+  .header-right {
+    float: right;
+  }
+  
+  .division{
+ 
+    align-items: center;
+    justify-content: center;
+  }
+  .card{
+    margin: 70px;
+  }
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+.outer{
+ margin: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.content{
+  display: flex;
+  width: 570px;
+  padding: 15px;
+  background: #fff;
+  border-radius: 12px;
+  position: relative;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.outer .toggle{
+  position: absolute;
+  width: 40px;
+  height: 20px;
+  border-radius: 20px;
+  background: #092c3e;
+  right: 15px;
+  top: 13px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    
+    border-radius: 50px;
+       font-family:'poppins', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center; 
+    line-height: 35px;
+    margin-bottom: 5px;
+    transition:0.3s;
+}
+
+
+
+.image-box {
+  height: 232px;
+  width: 200px;
+  border-radius: 12px;
+  padding: 3px;
+ 
+}
+.image-box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+  border-radius: 12px;
+}
+
+.content .details{
+  width: 58%;
+  margin: 10px 0 20px 20px;
+  color: #092c3e;
+}
+
+.content .details .name{
+  font-size: 23px;
+  font-weight: 600;
+}
+.content .details .job{
+  font-size: 18px;
+  font-weight: 500;
+}
+.content .details p{
+ font-size: 15px;
+ margin-top: 6px;
+}
+
+
+.media-icons{
+  position: absolute;
+  bottom: 16px;
+  right: 15px;
+  margin-top: 12px;
+  justify-content: flex-end;
+}
+.media-icons i{
+  display: inline-flex;
+  margin: 0 4px;
+  font-size: 16px;
+  color: #092c3e;
+  opacity: 0.7;
+  cursor: pointer;
+}
+.media-icons i:hover{
+  opacity: 1;
+}
+
+/* Estilos para tablets */
+@media screen and (max-width: 1024px) {
+  .card {
+    width: 90%;
+    left: 5%;
+  }
+
+  .foto2 img {
+    width: 150px;
+    height: 150px;
+    margin-left: 150px;
+  }
+
+  .footer {
+    padding: 30px 10px;
+  }
+
+  .title {
+    font-size: 0.8rem;
+  }
+
+  .size {
+    font-size: 0.6rem;
+  }
+
+  .comentarios {
+    margin-left: 60px;
+  }
+}
+
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 768px) {
+  .card {
+    width: 90%;
+    left: 5%;
+  }
+
+  .foto2 img {
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+  }
+
+  .footer {
+    padding: 20px 10px;
+  }
+
+  .title {
+    font-size: 0.7rem;
+  }
+
+  .size {
+    font-size: 0.5rem;
+  }
+
+  .comentarios {
+    margin-left: 30px;
+  }
+
+  /* Adicionando flex-direction para todos os elementos da página */
+  body,
+  .card,
+  .box2,
+  .image_container,
+  .caxinha {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centralizando os elementos na horizontal */
+  }
+
+  img {
+    width: 100%; /* Para garantir que as imagens ocupem a largura disponível */
+    height: auto; /* Altura automática para manter a proporção */
+    margin-left: 0; /* Removendo a margem esquerda das imagens */
+  }
+}
+
