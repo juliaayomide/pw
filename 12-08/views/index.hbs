@@ -3,21 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../public/assets/css/index.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <title>Página inicial</title>
-    
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../public/assets/css/index.css"> // linkando css
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> // linkando bootstrap
+    <link href="../public/assets/images/noticias.png" rel="icon">
+    <title>Voice</title>
 </head>
 <body>
-  <div class="header">
-    <a href="#default" class="logo">VOICE</a>
-    <div class="header-right">
-    
-      <a href="contato.html">Contato</a>
-    </div>
-  </div>
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -43,15 +36,17 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-<div class="tituts">NOTÍCIAS</div>
+
+  <div class="tituts">NOTÍCIAS</div>
+
   <div class="card-deck">
     <div class="card">
       <img class="card-img-top" src="../public/assets/fechad.jpg" alt="Imagem de capa do card">
       <div class="card-body">
-        <h5 class="card-title">Vandalismo na ETEC CT. É culpa de quem? Entenda o caso:</h5>
-        <p class="card-text">Entenda o caso de vandalismo ocorrido na escola que levou à interdição do banheiro.</p>
+        <h5 class="card-title">{{this.titulo}}</h5>
+        <p class="card-text">{{this.subtitulo}}</p>
         <button class="cta">
-          <a href="./vandalismo.html"  class="hover-underline-animation"> LEIA MAIS... </a>
+          <a href=""/noticia/{{this.id}}"  class="hover-underline-animation"> LEIA MAIS... </a>
           <svg
             id="arrow-horizontal"
             xmlns="http://www.w3.org/2000/svg"
@@ -69,38 +64,15 @@
         </button>
       </div>
     </div>
+
+      <div class="card-deck">
     <div class="card">
-      <img class="card-img-top" src="../public/assets/images/spf1.png" alt="Imagem de capa do card">
+      <img class="card-img-top" src="../public/assets/fechad.jpg" alt="Imagem de capa do card">
       <div class="card-body">
-        <h5 class="card-title">Estudantes Brilham na Competição da Semana Paulo Freire da Etec CT</h5>
-        <p class="card-text">Veja como ocorreu a nossa tão adorada semana Paulo Freire.</p>
+        <h5 class="card-title">{{this.titulo}}</h5>
+        <p class="card-text">{{this.subtitulo}}</p>
         <button class="cta">
-          <a href="./spf.html"  class="hover-underline-animation"> LEIA MAIS... </a>
-          <svg
-            id="arrow-horizontal"
-            xmlns="http://www.w3.org/2000/svg"
-            width="30"
-            height="10"
-            viewBox="0 0 46 16"
-          >
-            <path>
-              id="Path_10"
-              data-name="Path 10"
-              d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
-              transform="translate(30)"
-            </path>
-          </svg>
-        </button>
-        
-      </div>
-    </div>
-    <div class="card" href="./chapa.html">
-      <img class="card-img-top" src="../public/assets/images/chapa1.png" alt="Imagem de capa do card">
-      <div class="card-body">
-        <h5 class="card-title">Chapa 'Alquimia' vence eleições e assume liderança do Grêmio Estudantil na ETEC CT</h5>
-        <p class="card-text">Grêmio estudantil tem nova chapa no comando!</p>
-        <button class="cta">
-          <a href="./chapa.html"  class="hover-underline-animation"> LEIA MAIS... </a>
+          <a href=""/noticia/{{this.id}}"  class="hover-underline-animation"> LEIA MAIS... </a>
           <svg
             id="arrow-horizontal"
             xmlns="http://www.w3.org/2000/svg"
@@ -118,14 +90,15 @@
         </button>
       </div>
     </div>
+
+      <div class="card-deck">
     <div class="card">
-      <img class="card-img-top" src="../public/assets/images/junina1.png" alt="Imagem de capa do card">
+      <img class="card-img-top" src="../public/assets/fechad.jpg" alt="Imagem de capa do card">
       <div class="card-body">
-        <h5 class="card-title">Festa Junina da ETEC CT vai dar o que falar!
-          Confira:</h5>
-        <p class="card-text">Acompanhe conosoco como ocrrerá a festa junina da nossa escola.</p>
+        <h5 class="card-title">{{this.titulo}}</h5>
+        <p class="card-text">{{this.subtitulo}}</p>
         <button class="cta">
-          <a href="./site.html"  class="hover-underline-animation"> LEIA MAIS... </a>
+          <a href=""/noticia/{{this.id}}"  class="hover-underline-animation"> LEIA MAIS... </a>
           <svg
             id="arrow-horizontal"
             xmlns="http://www.w3.org/2000/svg"
@@ -143,35 +116,33 @@
         </button>
       </div>
     </div>
-  </div>
-  <div class="espaco">
-    
-  </div>
-    <footer class="footer">
-      <div class="left">
-     
-       <p class="links">
-        
-        <a href="./vandalismo.html" title="Home">Vandalismo</a>
-        <a href="./chapa.html" title="Html">Grêmio</a>
-        <a href="./site.html" title="Css">Festa Junina</a>
-        <a href="./spf.html" title="jQuery">SPF</a>
-       </p>
-       <div class="footer-icons">
-        <a href="https://github.com/juliaayomide"><i class="fa fa-github"></i></a>
-        <a href="https://www.instagram.com/ayomide.ju"><i class="fa fa-instagram"></i></a>
-        <a href="https://github.com/isaxsccp"><i class="fa fa-github"></i></a>
-        <a href="https://www.instagram.com/isaxsccp/"><i class="fa fa-instagram"></i></a>
-       
-       </div>
-                     <p class="Copyright">Copyright &copy; 2024 Voice - Todos os Direitos Reservados.</p>
-      </div><!--Left-->
-      
-     </footer>
-  
-  
-</div>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+      <div class="card-deck">
+    <div class="card">
+      <img class="card-img-top" src="../public/assets/fechad.jpg" alt="Imagem de capa do card">
+      <div class="card-body">
+        <h5 class="card-title">{{this.titulo}}</h5>
+        <p class="card-text">{{this.subtitulo}}</p>
+        <button class="cta">
+          <a href=""/noticia/{{this.id}}"  class="hover-underline-animation"> LEIA MAIS... </a>
+          <svg
+            id="arrow-horizontal"
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="10"
+            viewBox="0 0 46 16"
+          >
+            <path>
+              id="Path_10"
+              data-name="Path 10"
+              d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
+              transform="translate(30)"
+            </path>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
