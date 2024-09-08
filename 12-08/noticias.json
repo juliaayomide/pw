@@ -1,0 +1,32 @@
+{
+    "noticias": [
+      {
+        "id": 1,
+        "titulo": "Vandalismo na ETEC CT. É culpa de quem? Entenda o caso:",
+        "imagem": "../public/assets/fechad.jpg",
+        "subtitulo": "Vandalismo na ETEC CT: Rolo de papel higiênico obstrui vasos sanitários, causando transtornos à comunidade escolar.",
+        "conteudo": "Na última semana, a ETEC CT foi alvo de um ato de vandalismo que causou problemas e preocupação entre a comunidade escolar. Diversos rolos de papel higiênico foram lançados nos vasos sanitários dos banheiros, resultando em obstruções e danos às instalaçõe. O episódio de vandalismo, além de afetar diretamente o funcionamento dos banheiros, gerou prejuízos materiais e evidenciou a necessidade de conscientização sobre a importância da preservação do patrimônio escolar. A direção da ETEC CT repudiou veementemente o ocorrido e reforçou seu compromisso em identificar os responsáveis e aplicar as medidas disciplinares cabíveis."
+      },
+      {
+        "id": 2,
+        "titulo": "Estudantes Brilham na Competição da Semana Paulo Freire da Etec CT",
+        "imagem": "../public/assets/images/spf.jpg",
+        "subtitulo": "Esse ano, com um novo modelo, a Semana Paulo Freire foi marcante na Etec de Cidade Tiradentes",
+        "conteudo": "Na última semana, a Etec CT promoveu a aguardada competição da Semana Paulo Freire. O evento, que reúne alunos de diversos cursos em desafios acadêmicos e culturais, teve como destaque a criatividade e o empenho dos participantes. Entre os grupos do primeiro ano, a Sala do 1º Ano de Administração conquistou o título de campeã, demonstrando habilidades notáveis. Nos grupos do segundo ano, a turma do 2º Ano de Química se destacou, evidenciando sua dedicação e domínio da área. Já entre os alunos do terceiro ano, a Sala do 3º Ano de Desenvolvimento de Sistemas demonstrou sua sagacidade e AUTENTICIDADE, levando também a posição de primeiro lugar. Além do reconhecimento acadêmico, os vencedores foram agraciados com um prêmio especial: um dia em uma chácara, onde poderão desfrutar de momentos de lazer e integração."
+      },
+      {
+        "id": 3,
+        "titulo": "Festa Junina da ETEC CT vai dar o que falar! Confira:",
+        "imagem": "../public/assets/images/junina1.png",
+        "subtitulo": "ETEC CT se prepara para celebrar a tradição com a Festa Junina!",
+        "conteudo": "A Escola Técnica Estadual (ETEC) CT está prestes a se vestir com as cores e tradições da festa junina, em uma celebração que promete resgatar as raízes culturais e proporcionar momentos de diversão integração para alunos, professores, funcionários e toda a comunidade local. Com o intuito de celebrar a rica cultura brasileira, a ETEC CT preparou uma programação repleta de atrações típicas, que incluem as tradicionais barracas de comidas e bebidas, como pipoca, quentão, maçã do amor, além de deliciosas comidas regionais. Mas a festa não se resume apenas à gastronomia. A animação fica por conta das apresentações de danças de quadrilhas juninas, preparadas com carinho pelos alunos e professores da instituição. O evento promete encantar a todos com a beleza e a alegria das tradições juninas."
+      },
+      {
+        "id": 4,
+        "titulo": "Chapa 'Alquimia' vence eleições e assume liderança do Grêmio Estudantil na ETEC CT",
+        "imagem": "../public/assets/images/chapa1.png",
+        "subtitulo": "Nova chapa Alquimia é eleita para liderar o Grêmio Estudantil da ETEC!",
+        "conteudo": "Em uma votação marcada pela participação ativa dos estudantes, a chapa Alquimia foi eleita para liderar o Grêmio Estudantil da Etec de Cidade Tiradentes. Com um discurso pautado na união, diversidade e participação ativa dos estudantes, a chapa Alquimia conquistou a confiança da maioria dos eleitores, prometendo representar os diversos segmentos da comunidade escolar e trabalhar em prol de melhorias para o ambiente educacional. A chapa ssume agora a responsabilidade de representar os interesses dos estudante perante a direção da escola, além de organizar eventos, promover ações sociais e culturais, e estimular o debate de temas relevantes para a comunidade escolar."
+      }
+    ]
+  }
